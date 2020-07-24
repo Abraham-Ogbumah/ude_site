@@ -4,30 +4,37 @@
 
 <head>
     <title>A single web page</title>
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
-        <div id="logo">
+        <a href="#" title="Return to Home Page" id="logo">
             <img src="images/logo.png" alt="Logo" width="25px" height="25px">
-        </div>
+        </a>
         <!--End of logo-->
 
         <nav>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Connect</a>
+            <ul><a href="#">About</a></ul>
+            <ul><a href="#">Services</a></ul>
+            <ul><a href="#">Connect</a></ul>
         </nav>
         <!--End of nav-->
 
         <div class="hero-image">
             <div class="hero-text">
                 <h1>Flower breathe Life</h1>
-                <h3>Not to mention the wonerful scent</h3>
-                <button>view more</button>
+                <h2>Not to mention the wonerful scent</h2>
+
+                <div id="call-to-action">
+                    <a href="#" class="btn primary">Primary Call to Action</a>
+                    <a href="#" class="btn secondary">Secondary call to action</a>
+                </div>
             </div>
-            <!--End of hero-->
+            <!--End of hero text-->
+
+            <!-- <img src="images/dog-1210559_1920.jpg" alt="image" id="on-hero"> -->
+
         </div>
     </header>
 
@@ -35,25 +42,27 @@
 
         <section>
 
-            <div class="description-text">
-                <h1>Different flower types</h1>
-                <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually
-                    by providing a mechanism for the union of sperm with eggs. </p>
-            </div>
+            <h3>Different flower types</h3>
+            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually
+                by providing a mechanism for the union of sperm with eggs. </p>
 
-            <div class="description-card">
-                <div id="des-card-one">
-                    <img src="images/rose-729509_1920.jpg" alt="rose" width="50px" height="50px">
+            <div class="row">
+                <div class="des-card">
+                    <img src="images/rose-729509_1920.jpg" alt="rose">
+                    <h4>A Sample Image</h4>
                     <p>This is just a paragraph text</p>
                 </div>
 
-                <div id="des-card-two">
-                    <img src="images/daisy-5383056_1920.jpg" alt="daisy" width="180px" height="180px">
+                <div class="des-card">
+                    <img src="images/daisy-5383056_1920.jpg" alt="daisy">
+                    <h4>A Sample Image</h4>
                     <p>This is just another paragraph text</p>
                 </div>
 
-                <div id="des-card-three">
-                    <img src="images/red-rose-320868_1920.jpg" alt="red-rose" width="50px" height="50px">
+                <div class="des-card">
+                    <img src="images/red-rose-320868_1920.jpg" alt="red-rose">
+                    <h4>A Sample Image</h4>
+                    <p>This is yet another paragraph text</p>
                 </div>
             </div>
 
@@ -61,7 +70,17 @@
         <!--section-->
 
         <aside>
+            <div class="widget">
+                <h4>Latest News</h4>
+                <h5>Dec 31 2020</h5>
+                <p>We do not have news to give</p>
+            </div>
 
+            <div class="widget">
+                <h4>Latest News</h4>
+                <h5>Dec 31 2020</h5>
+                <p>We do not have news to give</p>
+            </div>
         </aside>
         <!--End of aside-->
 
