@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+}
+
+#logo {
+    margin: 30px;
+}
+
+.hero-image {
+    background-image: url("../images/summer-783347_1920.jpg");
+    background-color: aliceblue;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 480px;
+}
+
+nav {
+    display: inline;
+    float: right;
+    margin: 15px;
+}
+
+nav ul {
+    text-decoration: none;
+    display: inline;
+}
+
+nav a {
+    color: white;
+    padding: 20px;
+}
+
+.des-card img {
+    max-width: 230px;
+    max-height: 230px;
+    width: auto;
+    height: auto;
+}
