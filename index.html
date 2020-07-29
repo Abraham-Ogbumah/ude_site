@@ -4,22 +4,26 @@
 
 <head>
     <title>A single web page</title>
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
     <header>
-        <a href="#" title="Return to Home Page" id="logo">
-            <img src="images/logo.png" alt="Logo" width="25px" height="25px">
-        </a>
-        <!--End of logo-->
+        <div class="container">
+            <a href="#" title="Return to Home Page" id="logo">
+                <img src="images/logo.png" alt="Logo" width="25px" height="25px">
+            </a>
+            <!--End of logo-->
 
-        <nav>
-            <ul><a href="#">About</a></ul>
-            <ul><a href="#">Services</a></ul>
-            <ul><a href="#">Connect</a></ul>
-        </nav>
-        <!--End of nav-->
+            <nav>
+                <ul><a href="#">About</a></ul>
+                <ul><a href="#">Services</a></ul>
+                <ul><a href="#">Connect</a></ul>
+            </nav>
+            <!--End of nav-->
+        </div>
+        <!--End of container-->
 
         <div class="hero-image">
             <div class="hero-text">
@@ -43,7 +47,7 @@
         <section>
 
             <h3>Different flower types</h3>
-            <p>A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually
+            <p class="lead">A flower, sometimes known as a bloom or blossom, is the reproductive structure found in flowering plants (plants of the division Magnoliophyta, also called angiosperms). The biological function of a flower is to affect reproduction, usually
                 by providing a mechanism for the union of sperm with eggs. </p>
 
             <div class="row">
@@ -88,12 +92,25 @@
     <!--End of content-->
 
     <div class="secondary-call">
+        <h4>The is a sample text</h4>
+
+        <form class="form">
+            <input type="email" placeholder="enter your email here">
+            <input type="submit" class="btn small-btn" value="Sign Up">
+        </form>
 
     </div>
     <!--End of Secondary call-->
 
     <footer id="footer-links">
+        <p id="copyright">Copyright &copy; All right reserved</p>
 
+        <nav>
+            <ul>Home</ul>
+            <ul>About</ul>
+            <ul>Services</ul>
+            <ul>Contact</ul>
+        </nav>
     </footer>
     <!--End of footer-->
 
